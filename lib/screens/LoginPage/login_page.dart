@@ -16,15 +16,10 @@ class LoginPage extends StatelessWidget {
         children: [
           ImageBackground(),
           SafeArea(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                TextFieldWidget(
-                  emailController: emailController,
-                  passwordController: passwordController,
-                  nameController: nameController,
-                )
-              ],
+            child: TextFieldWidget(
+              emailController: emailController,
+              passwordController: passwordController,
+              nameController: nameController,
             ),
           ),
         ],

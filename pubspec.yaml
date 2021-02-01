@@ -21,6 +21,8 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  firebase: ^8.0.0
+  firebase_auth: ^0.20.0+1
   animated_text_kit: ^3.1.0
   data_connection_checker: ^0.3.4
   http: ^0.12.2
